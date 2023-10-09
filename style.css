@@ -1112,9 +1112,9 @@ button[type="submit"] {
   }
   /*************************FOOTER*******************************/
   .footer-about{
-  padding-left: 30px;
-  text-align: justify;
-}
+    padding-left: 30px;
+    text-align: justify;
+  }
   /*********************LAS SECCIONES QUE SE OCULTAN************************/
   .logo-movil,
   .btn-menu-movil,
