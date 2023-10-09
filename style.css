@@ -130,8 +130,6 @@ button {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 20px;
-
 }
 
 /*********************CONTENEDORES DEL HEADER Y MENU, LOGO*********************/
@@ -172,7 +170,6 @@ header .container-usuario {
   cursor: pointer;
 }
 
-
 .container-head-menu {
   display: flex;
   justify-content: space-between;
@@ -184,7 +181,8 @@ header .container-usuario {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  padding: 20px 0;
+  gap: 10px;
 }
 
 .container-no-registrado {
