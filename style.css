@@ -611,57 +611,6 @@ button[type="submit"] {
   width: 300px;
 }
 
-
-/********************************************FOOTER**********************************/
-#footer {
-  background-color: var(--color-secundario);
-  color: var(--color-texto-secundario);
-  box-shadow: 0 -3px 10px -7px var(--color-secundario);
-}
-
-#footer .contenedor {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.container-footer {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-  padding: 30px 0 30px 20px;
-  border-bottom: 1px solid var(--sombra);
-}
-
-.footer-contenedor-contacto a {
-  color: var(--color-texto-secundario);
-}
-
-.footer-about,
-.footer-contacto,
-.footer-redsocial {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.redessociales {
-  display: flex;
-  gap: 30px;
-}
-
-.footer-fraja {
-  text-align: center;
-  padding: 10px 0;
-  font-size: 0.8em;
-  color: var(--color-texto-primario);
-}
-
-.redessociales i {
-  color: white;
-  /* Establece el color de los íconos en blanco */
-}
-
 /******************************QUIENES SOMOS********************************/
 /*PROPIEDADES DEL BANNER*/
 #banner-quienes {
@@ -845,7 +794,56 @@ button[type="submit"] {
   margin: 0 auto;
 }
 
+/********************************************FOOTER**********************************/
+#footer {
+  background-color: var(--color-secundario);
+  color: var(--color-texto-secundario);
+  box-shadow: 0 -3px 10px -7px var(--color-secundario);
+}
 
+#footer .contenedor {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0 30px 20px;
+}
+
+.container-footer {
+  display: grid;
+  justify-items: center;
+  border-bottom: 1px solid var(--sombra);
+
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+}
+
+.footer-contenedor-contacto a {
+  color: var(--color-texto-secundario);
+}
+
+.footer-about,
+.footer-contacto,
+.footer-redsocial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redessociales {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-fraja {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.8em;
+  color: var(--color-texto-primario);
+}
+
+.redessociales i {
+  color: white;
+  /* Establece el color de los íconos en blanco */
+}
 /*********************LAS SECCIONES QUE SE OCULTAN*********************/
 .container-usuario p,
 .container-ayuda,
@@ -863,7 +861,18 @@ button[type="submit"] {
                                                      PANTALLA MEDIANA
   *********************************************************************************************************************/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
+ /*******************************HEADER*******************************/
+  .container-btn-cierre {
+    width: 80%;
+    gap: 20px;
+  }
+  .container-btn-cierre p{
+   font-size: 1.2em;
+  }
+  
+  .container-btn-cierre .btn-cierre {
+   font-size: 1.3em;
+  }
 
   /*******************************BANNER*****************************/
   .content-banner h1 {
@@ -888,6 +897,11 @@ button[type="submit"] {
   #contacto {
     margin-top: 130px;
   }
+
+/************************FOOTER********************************/
+#footer .contenedor {
+  padding: 30px 0;
+}
 
 /*********************LAS SECCIONES QUE SE OCULTAN*********************/
 
@@ -1114,6 +1128,9 @@ button[type="submit"] {
   .footer-about{
     padding-left: 30px;
     text-align: justify;
+  }
+  .footer-contacto{
+    padding-left: 40px;
   }
   /*********************LAS SECCIONES QUE SE OCULTAN************************/
   .logo-movil,
