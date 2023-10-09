@@ -508,7 +508,7 @@ header .container-usuario {
 }
 
 
-/***************************************************EXPLORAR CONTENIDO***********************/
+/***********************************************EXPLORAR CONTENIDO***********************/
 #section-explorar {
   background-color: var(--color-franja);
   /* Ajusta esto según el tamaño de tu barra de navegación o el espacio superior deseado */
@@ -545,7 +545,7 @@ header .container-usuario {
   text-align: center;
   gap: 10px;
   padding-top: 20px;
-  width: 60vw;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -1062,7 +1062,10 @@ button[type="submit"] {
 .quienes-somos-imagen2{
   grid-area: imagen2;
 }
-
+/***********************************************EXPLORAR CONTENIDO***********************/
+.parrafo-section-explorar {
+   width: 60%;
+}
 
   /********************************************CONTACTO**********************************/
   #contacto {
