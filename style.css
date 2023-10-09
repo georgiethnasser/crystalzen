@@ -536,7 +536,6 @@ header .container-usuario {
 .explorar-contenido img {
   border-radius: 5px 5px 0 0;
   max-width: 100%;
-  height: 100%;
 }
 
 .parrafo-section-explorar {
@@ -630,7 +629,7 @@ button[type="submit"] {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-  padding: 30px;
+  padding: 30px 0 30px 20px;
   border-bottom: 1px solid var(--sombra);
 }
 
@@ -645,13 +644,6 @@ button[type="submit"] {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-
-}
-
-.footer-about,
-.footer-contacto {
-  padding-left: 30px;
-  text-align: justify;
 }
 
 .redessociales {
@@ -1119,7 +1111,11 @@ button[type="submit"] {
   .blog-texto-grupo{
     text-align: left;
   }
-  
+  /*************************FOOTER*******************************/
+  .footer-about{
+  padding-left: 30px;
+  text-align: justify;
+}
   /*********************LAS SECCIONES QUE SE OCULTAN************************/
   .logo-movil,
   .btn-menu-movil,
