@@ -815,7 +815,8 @@ button[type="submit"] {
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
-.footer-contenedor-contacto a {
+.footer-contenedor-contacto a,
+.footer-contenedor-contacto p {
   color: var(--color-texto-secundario);
 }
 
