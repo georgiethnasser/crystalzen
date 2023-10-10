@@ -815,8 +815,7 @@ button[type="submit"] {
   grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
-.footer-contenedor-contacto a,
-.footer-contacto p {
+.footer-contenedor-contacto a{
   color: var(--color-texto-secundario);
 }
 
@@ -827,6 +826,7 @@ button[type="submit"] {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  color: var(--color-texto-secundario);
 }
 
 .redessociales {
