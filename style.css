@@ -816,7 +816,7 @@ button[type="submit"] {
 }
 
 .footer-contenedor-contacto a,
-.footer-contenedor-contacto p {
+.footer-contacto p {
   color: var(--color-texto-secundario);
 }
 
